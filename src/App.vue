@@ -2,12 +2,11 @@
 import { ref, onMounted } from 'vue'
 import ChatRoom from '@/components/ChatRoom.vue';
 
-const counter = ref(10)
-const add = () => { counter.value++ }
-
-onMounted(() => {
-  console.log(`初始值是${counter.value}`)
-})
+// const counter = ref(10)
+// const add = () => { counter.value++ }
+// onMounted(() => {
+//   console.log(`初始值是${counter.value}`)
+// })
 
 // const drawer = null
 </script>
