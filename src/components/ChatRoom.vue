@@ -8,9 +8,9 @@
     </v-system-bar>
 
     <v-navigation-drawer v-model="drawer" width="60" class="py-3 bg-slate-100" absolute mini-variant>
-      <v-avatar class="d-block text-center mx-auto pt-2 bg-slate-300" size="36"></v-avatar>
+      <v-avatar class="block text-center mx-auto pt-2 bg-slate-300" size="36"></v-avatar>
       <v-divider class="mx-3 my-5"></v-divider>
-      <v-avatar v-for="n in 6" :key="n" class="d-block text-center mx-auto mb-9 bg-slate-300" size="28"></v-avatar>
+      <v-avatar v-for="n in 6" :key="n" class="block text-center mx-auto mb-9 bg-slate-300" size="28"></v-avatar>
     </v-navigation-drawer>
 
     <v-navigation-drawer v-model="drawer" app width="300">
