@@ -21,3 +21,4 @@ test('沒數字',()=>{
     expect(add()).toEqual(0)
 })
 
+expect(1 + 1).toBe(2)
