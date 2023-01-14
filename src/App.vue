@@ -34,7 +34,7 @@ async function sendMsg() {
   if (textMsg.value === '') {
     return alert('請填寫訊息')
   }
-  await axios.post('https://cryptalk-server.vercel.app/snedMsg', { textMsg: textMsg.value, user })
+  await axios.post('http://localhost:1688/snedMsg', { textMsg: textMsg.value, user })
     .then(res => {
       if (res.data.msg) {
         textMsg.value = ''
@@ -46,7 +46,7 @@ async function sendMsg() {
 }
 
 async function showHistory() {
-  await axios.get('https://cryptalk-server.vercel.app/MsgHistory')
+  await axios.get('http://localhost:1688/MsgHistory')
     .then(res => {
       if (res?.data) {
         console.log(res.data)
