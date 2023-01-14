@@ -33,11 +33,12 @@
       </v-responsive>
     </v-app-bar>
 
-      <v-main>
-        chat ZONE
-      </v-main>
-
-      <v-navigation-drawer app clipped location="right">
+    <v-main>
+      <iframe src="https://next-test-aki168.vercel.app/" width="100%" height="100%" allow="geolocation">
+        chat room iframe
+      </iframe>
+    </v-main>
+    <!-- <v-navigation-drawer app clipped location="right">
         <v-list>
           <v-list-item v-for="n in 5" :key="n" link>
             <v-list-item-content>
@@ -45,16 +46,19 @@
             </v-list-item-content>
           </v-list-item>
         </v-list>
-      </v-navigation-drawer>
+      </v-navigation-drawer> -->
 
-    <v-footer app color="transparent" height="72" inset>
+    <!-- <v-footer app color="transparent" height="72" inset>
       <v-text-field background-color="grey lighten-1" dense flat hide-details rounded solo></v-text-field>
-    </v-footer>
+    </v-footer> -->
   </v-layout>
 </template>
 
-<script>
-export default {
-  data: () => ({ drawer: null }),
-}
+<script setup>
+import { onMounted, ref } from 'vue';
+onMounted(() => {
+})
+
+const drawer = ref(null)
+
 </script>
