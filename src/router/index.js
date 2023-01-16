@@ -4,7 +4,7 @@ import Chat from '@/views/Chat.vue'
 import Market from '@/views/Market.vue'
 import Member from '@/views/Member.vue'
 
-const base = '/'
+const base = ''
 
 let history = createWebHistory()
 let routes = [

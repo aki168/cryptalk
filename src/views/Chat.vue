@@ -5,7 +5,7 @@
     <v-avatar v-for="n in 6" :key="n" class="block text-center mx-auto mb-9 bg-slate-300" size="28"></v-avatar>
   </v-navigation-drawer>
   <v-navigation-drawer v-model="drawer" app width="300">
-    <v-sheet class="bg-slate-100 p-1" height="128" width="100%">
+    <v-sheet class="bg-slate-200 p-1" height="128" width="100%">
       SHEET
     </v-sheet>
     <v-list class="pl-14" shaped>

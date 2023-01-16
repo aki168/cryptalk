@@ -11,7 +11,7 @@
 
 <template>
   <v-app>
-    <v-layout class="pt-2 pb-4">
+    <v-layout class="pb-4">
       <v-app-bar color="primary" app clipped-right flat >
       </v-app-bar>
       <router-view/>
