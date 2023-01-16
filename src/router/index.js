@@ -4,27 +4,25 @@ import Chat from '@/views/Chat.vue'
 import Market from '@/views/Market.vue'
 import Member from '@/views/Member.vue'
 
-const base = ''
-
 let history = createWebHistory()
 let routes = [
   {
-    path: `${base}/`,
+    path: `/`,
     name: 'home',
     component: Home
   },
   {
-    path: `${base}/chat`,
+    path: `/chat`,
     name: 'chat',
     component: Chat
   },
   {
-    path: `${base}/market`,
+    path: `/market`,
     name: 'market',
     component: Market
   },
   {
-    path: `${base}/member`,
+    path: `/member`,
     name: 'member',
     component: Member
   }
