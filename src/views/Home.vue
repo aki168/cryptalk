@@ -18,7 +18,7 @@
         </div>
       </div>
       <template class="md:hidden block">
-        <sign-in-card />
+        <sign-in-card class="mx-auto"/>
       </template>
     </section>
   </v-main>
