@@ -14,7 +14,7 @@
         </div>
         <div class="block w-full md:w-1/2 py-5">
           <h3 class="text-3xl xl:text-5xl text-end text-blue-grey-400 font-bold">加密聊</h3>
-          <img alt="hero" src="hero.png" />
+          <img alt="hero" src="/hero.png" />
         </div>
       </div>
       <template class="md:hidden block">
