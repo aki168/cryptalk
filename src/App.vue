@@ -1,5 +1,4 @@
 <script setup>
-import ChatRoom from '@/components/ChatRoom.vue';
 // import { ref, onMounted, watch } from 'vue'
 // import axios from 'axios'
 // const msgHistory = ref([])
@@ -12,6 +11,12 @@ import ChatRoom from '@/components/ChatRoom.vue';
 
 <template>
   <v-app>
-    <chat-room/>
+    <v-layout class="pt-2 pb-4">
+      <v-app-bar color="primary" app clipped-right flat >
+      </v-app-bar>
+      <router-view/>
+    </v-layout>
+    <v-footer app color="primary" inset>
+    </v-footer>
   </v-app>
 </template>

@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  body {
+    margin: 0;
+    font-family: 'Poppins', 'Roboto', 'Noto Sans TC', system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  a:hover, svg:hover, button:hover {
+    opacity: 0.9;
+  }
+}
+
+@layer components {
+  .ct-container{
+    @apply xl:container xl:mx-auto xl:p-4 py-4 px-2
+  }
+}
